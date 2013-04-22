@@ -1,0 +1,20 @@
+PODS:
+  - AGGeometryKit (0.1.5)
+  - MTStatusBarOverlay (0.9.1)
+  - RAFoldable (0.0.1):
+    - AGGeometryKit (~> 0.1.5)
+
+DEPENDENCIES:
+  - MTStatusBarOverlay (~> 0.9.1)
+  - RAFoldable (from `RAFoldable`)
+
+EXTERNAL SOURCES:
+  RAFoldable:
+    :local: RAFoldable
+
+SPEC CHECKSUMS:
+  AGGeometryKit: ff9ed0e72a573f6bd0c7a06965b3f744bc6b150f
+  MTStatusBarOverlay: 2cee705996e4e307191d423bf49e583b9b2c14ac
+  RAFoldable: a0ca89f02d77c1141ce0b410c3e7cdc56bcabc15
+
+COCOAPODS: 0.18.1
