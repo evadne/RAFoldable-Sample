@@ -21,16 +21,6 @@
 		FF8B5C2617257A3900B6E636 /* Sample.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF8B5C2517257A3800B6E636 /* Sample.jpeg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FF8B5C1B17255FCF00B6E636 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF8B5C1717255FCF00B6E636 /* RAFoldable.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FF8B5C0617255FBA00B6E636;
-			remoteInfo = RAFoldable;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		90F3F2D45D1048CAB6B42123 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DF271AC549CD4B78B347A4EB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +37,6 @@
 		FF8B5BF217255FAA00B6E636 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FF8B5BF417255FAA00B6E636 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FF8B5BF617255FAA00B6E636 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FF8B5C1717255FCF00B6E636 /* RAFoldable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAFoldable.xcodeproj; path = RAFoldable/RAFoldable.xcodeproj; sourceTree = "<group>"; };
 		FF8B5C231725627D00B6E636 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FF8B5C2517257A3800B6E636 /* Sample.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sample.jpeg; path = "RAFoldable-Sample/Sample.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +80,6 @@
 		FF8B5BDF17255FAA00B6E636 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF8B5C1717255FCF00B6E636 /* RAFoldable.xcodeproj */,
 				FF8B5BE017255FAA00B6E636 /* UIKit.framework */,
 				FF8B5BE217255FAA00B6E636 /* Foundation.framework */,
 				FF8B5BE417255FAA00B6E636 /* CoreGraphics.framework */,
@@ -122,14 +110,6 @@
 				FF8B5BF617255FAA00B6E636 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FF8B5C1817255FCF00B6E636 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF8B5C1C17255FCF00B6E636 /* libRAFoldable.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FF8B5C2717257A3B00B6E636 /* Resources */ = {
@@ -181,28 +161,12 @@
 			mainGroup = FF8B5BD417255FAA00B6E636;
 			productRefGroup = FF8B5BDE17255FAA00B6E636 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FF8B5C1817255FCF00B6E636 /* Products */;
-					ProjectRef = FF8B5C1717255FCF00B6E636 /* RAFoldable.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FF8B5BDC17255FAA00B6E636 /* RAFoldable-Sample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FF8B5C1C17255FCF00B6E636 /* libRAFoldable.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRAFoldable.a;
-			remoteRef = FF8B5C1B17255FCF00B6E636 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FF8B5BDB17255FAA00B6E636 /* Resources */ = {

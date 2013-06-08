@@ -1,1 +1,1 @@
-pod 'RAFoldable', :local => 'RAFoldable'
+pod 'RAFoldable'

@@ -23,7 +23,9 @@
 		rootVC.view.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
 		
 		RAFoldableContainerView *fcv = [[RAFoldableContainerView alloc] initWithFrame:rootVC.view.bounds];
+		
 		fcv.foldableView.image = [UIImage imageNamed:@"Sample.jpeg"];
+		
 		[rootVC.view addSubview:fcv];
 		
 		_window.rootViewController = rootVC;
